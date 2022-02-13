@@ -2,17 +2,11 @@
 A social media website for book and book art lovers. 
 Visitors of the website can read various book reviews and take inspiration for book art.
 Users can post book reviews along with a picture of the book which expresses their own artistic style.
-1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
 
 ## Functionality
 
 1. Non-registered Users
-⋅⋅* Users who don't have an account can browse the website and see the posts made by the registered users.
+  * Users who don't have an account can browse the website and see the posts made by the registered users.
 ⋅⋅* They can use the search system to lookup particular books or authors.
 ⋅⋅* They can view the comments made by registered users.
 ⋅⋅* They cannot post their own content.
