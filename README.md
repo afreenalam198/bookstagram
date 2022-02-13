@@ -2,6 +2,12 @@
 A social media website for book and book art lovers. 
 Visitors of the website can read various book reviews and take inspiration for book art.
 Users can post book reviews along with a picture of the book which expresses their own artistic style.
+1. First ordered list item
+2. Another item
+⋅⋅* Unordered sub-list. 
+1. Actual numbers don't matter, just that it's a number
+⋅⋅1. Ordered sub-list
+4. And another item.
 
 ## Functionality
 
