@@ -6,11 +6,11 @@ Users can post book reviews along with a picture of the book which expresses the
 ## Functionality
 
 1. Non-registered Users
-    Users who don't have an account can browse the website and see the posts made by the registered users.
-    They can use the search system to lookup particular books or authors.
-    They can view the comments made by registered users.
-    They cannot post their own content.
-    They cannot like or comment on a post.
+⋅⋅* Users who don't have an account can browse the website and see the posts made by the registered users.
+⋅⋅* They can use the search system to lookup particular books or authors.
+⋅⋅* They can view the comments made by registered users.
+⋅⋅* They cannot post their own content.
+⋅⋅* They cannot like or comment on a post.
 
 2. Registered Users
 •	Users with an account can post whatever content they want.
