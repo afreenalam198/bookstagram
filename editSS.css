@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    
+}
+
+.wrapper {
+    padding: 30px 50px;
+    border: 1px solid #ddd;
+    box-shadow: 8px 8px 22px #ced4da;
+    border-radius: 15px;
+    margin: 10px auto;
+    max-width: 620px;
+}
+
+h4 {
+    letter-spacing: -1px;
+    font-weight: 400
+}
+
+p {
+    color: #000000;
+    font-size: 16px;
+}
+
+label {
+    margin-bottom: 0;
+    color: #777;
+    padding-left: 3px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.form-control {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.form-control:focus {
+    border-color: gray;
+    box-shadow: 0 0 0 0.2rem #ccc;
+}
+
+select {
+    display: block;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    height: 40px;
+    padding: 5px 10px
+}
+
+select:focus {
+    outline: none
+}
+
+
+.danger {
+    background-color: #fff;
+    color: #e20404;
+    border: 1px solid #ddd
+}
+
+.danger:hover {
+    box-shadow: 0 0 0 0.2rem #e20404;
+}
+
+.danger:focus {
+    border: 1px solid #e20404;
+    box-shadow: 0 0 0 0.2rem #eb2626;
+}
+
+.btn-custom{
+    background: #000000;
+    border-color:#000000;
+    color:#fff;
+    font-size: 16px;
+    font-weight: 500;
+    min-height: 48px;
+    border-radius: 0.3rem;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 0.5rem!important;
+  }
+  
+  .btn-custom:focus,
+  .btn-custom:hover,
+  .btn-custom:active,
+  .btn-custom:active:focus{
+    background: #212529;
+    border-color: #212529;
+    color:#fff;
+  }
+  .btn-custom:focus{
+    box-shadow: 0 0 0 0.2rem #ccc;
+  }
+
+@media(max-width:576px) {
+    .wrapper {
+        padding: 25px 20px
+    }
+
+    #deactivate {
+        line-height: 18px
+    }
+}
+
+#denyLine {
+    color:  #e20404;
+    padding-bottom: 18px;
+    padding-left: 2px;
+}
+
+.pb-2, .py-2 {
+    padding-bottom: 0.5rem!important;
+}
+
+.pt-4, .py-4 {
+    padding-top: 0rem!important; 
+}
+
+#editTag {
+    float: right;
+    padding-top: 6px;
+}
+
+#editTag a{
+    color: #000000;
+}
+
+#editTag a:hover{
+    color: #212529;
+}
+
+
+#bottomPadding {
+    padding-bottom: 0.1rem!important;
+}
+

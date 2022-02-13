@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+.btn-custom {
+    font-size: 1rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    margin-top: 0.6rem;
+}
+
+.custom-card {
+    background-color: #f8f9fa;
+}
+
+/*book info form*/
+
+.login-container{
+    width: 100%;
+  }
+  
+  .login-form{
+      margin: auto;
+      margin-top: 70px;
+      width: 385px;
+      height: 450px;
+      padding: 15px;
+      max-width: 100%;
+      position: relative;
+      pointer-events: auto;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid  #ced4da;
+      border-radius: 1.1rem;
+      outline: 0;
+      
+  }
+  
+  .login-form .form-control{
+    font-size: 15px;
+    min-height: 48px;
+    font-weight: 500;
+  }
+
+  .login-form a{
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .login-form a:hover{
+    color: #212529;
+  }
+  
+  .form-control:focus{
+    border-color: gray;
+    box-shadow: 0 0 0 0.2rem #ccc;
+  }
+  
+  .btn-custom1{
+    background: #000000;
+    border-color:#000000;
+    color:#fff;
+    font-size: 15px;
+    font-weight: 600;
+    min-height: 48px;
+    border-radius: 2rem;
+  }
+  
+  .btn-custom1:focus,
+  .btn-custom1:hover,
+  .btn-custom1:active,
+  .btn-custom1:active:focus{
+    background: #212529;
+    border-color: #212529;
+    color:#fff;
+  }
+  .btn-custom1:focus{
+    box-shadow: 0 0 0 0.2rem #ccc;
+  }
+  
+  h1 {
+      font-family: "Dancing Script";
+      font-size: 36px;
+      padding-top: 1rem;
+      color: #000000;
+  }
+ 
+
+a {
+    padding-left: 0.1rem;
+    text-decoration: none; 
+    color: #636c72 
+}
+
+a:hover {
+    text-decoration: none;
+    color: #212529;
+}
+
+
+.card-img {
+  width: 45rem; 
+  height: 35rem;
+}
+
+.card-body {
+  width: 45rem;
+}
+
+.comment-box {
+  width: 100%;
+}
+
+
+@media (max-width: 870px) {
+
+  .card {
+      width: 35rem;
+  }
+
+  .card-img {
+      width: 34.9rem; 
+      height: 25rem;
+  }
+
+  .card-body {
+      width: 35rem;
+  }
+
+}
+
+
+@media (max-width: 750px) {
+
+  .card {
+      width: 30rem;
+  }
+
+  .card-img {
+      width: 29.9rem; 
+      height: 20rem;
+  }
+
+  .card-body {
+      width: 30rem;
+  }
+
+  .px-3 {
+      padding-right: 2rem!important;
+  }
+
+}
+
+@media (max-width: 675px) {
+
+  .card {
+      width: 25rem;
+  }
+
+  .card-img {
+      width: 24.9rem; 
+      height: 15rem;
+  }
+
+  .card-body {
+      width: 25rem;
+  }
+
+  .px-3 {
+      padding-right: 2.75rem!important;
+  }
+
+}
